@@ -41,7 +41,7 @@ var = 0
 users = user.sort_by {|k,v| -v}
 
 #User most popular friends listed and sorted
-usuarios.each do |user,count|
+users.each do |user,count|
 	if (var > iter.to_i)
 		break
 	end
