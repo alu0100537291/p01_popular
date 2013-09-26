@@ -1,5 +1,5 @@
 require 'twitter'
-require './configure'
+require './.configure.rb'
 
 #Hash where followers are stored
 user = Hash.new
